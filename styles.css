@@ -1,0 +1,143 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: white;
+    margin: 0; /* Remove default body margin for better layout control */
+  }
+  
+  .title {
+    font-size: 3.5rem; /* Adjust font size for better scaling */
+    font-weight: 700;
+    text-align: center;
+    padding-top: 6px;
+  }
+  
+  .quote {
+    font-size: 1.5rem; /* Adjust font size for better scaling */
+    font-weight: light;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .aboutme {
+    font-size: 1rem; /* Adjust font size for better readability */
+    font-weight: light;
+    text-align: justify;
+    padding: 15px;
+    font-family: Poppins;
+  }
+  
+  .text-container {
+    margin: 20px auto; /* Adjust margin for better spacing on mobile */
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-width: 700px;
+  }
+  
+  .copy-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .copy-btn:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Media query for smaller screens (adjust max-width as needed) */
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 2.5rem; /* Adjust font size further for smaller screens */
+    }
+    .quote {
+      font-size: 1.2rem; /* Adjust font size further for smaller screens */
+    }
+    .aboutme {
+      font-size: 0.9rem; /* Adjust font size further for smaller screens */
+    }
+    .text-container {
+      max-width: 100%; /* Set max-width to 100% for full-width on mobile */
+    }
+  }
+
+  body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  body.dark-mode .accordion-button {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  body.dark-mode .list-group-item {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  body.dark-mode .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  body.dark-mode .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  body.dark-mode .card {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  body.dark-mode .card .btn {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  body.dark-mode .btn-dark {
+    background-color: #000000;
+    border-color: #444;
+  }
+  
+  body.dark-mode .btn-dark:hover {
+    background-color: #000000;
+    border-color: #555;
+  }
+  /* Dark mode button styles */
+.btn-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-toggle:hover {
+    background-color: #555;
+  }
+  
+  .btn-toggle:focus {
+    outline: none;
+  }
+  
+  body.dark-mode .btn-toggle {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  body.dark-mode .btn-toggle:hover {
+    background-color: #ddd;
+  }
+  
+  
+  
