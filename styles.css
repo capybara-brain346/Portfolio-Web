@@ -45,6 +45,25 @@ body {
   .copy-btn:hover {
     background-color: #0069d9;
   }
+/* Apply these styles to the parent container of the profile picture */
+.parent-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42vh; /* Full height of the viewport */
+}
+
+/* Profile picture styles */
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #000000;
+  display: block;
+  /* margin: 0 auto; -- not needed with Flexbox */
+}
+
+  
   
   /* Media query for smaller screens (adjust max-width as needed) */
   @media only screen and (max-width: 768px) {
