@@ -226,5 +226,35 @@ body {
   }
   
   
-  
+
+.time-pill {
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    font-size: 24px;
+    font-family:Poppins ;
+    font-style:oblique;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    transition: all 0.3s ease;
+    
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .time-pill {
+        padding: 8px 16px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .time-pill {
+        padding: 6px 12px;
+        font-size: 18px;
+    }
+}
+
   
