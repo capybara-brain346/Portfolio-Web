@@ -227,20 +227,24 @@ body {
   
   
 
-.time-pill {
+  .time-pill {
     padding: 10px 20px;
     margin: 10px;
     text-align: center;
-    background-color: #ff08005b;
-    color: rgb(0, 0, 0);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     border-radius: 50px;
     font-size: 24px;
-    font-family:Poppins ;
-    font-weight: 800;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    font-family: Poppins;
+    font-weight: 700;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Adjust shadow for subtle frost effect */
     transition: all 0.3s ease;
-    
-}
+  
+    /* Frost effect with background image and mix-blend-mode */
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAABySURBVHjezcrbDcQAAAAAIDDEACBbjsvGAAAAAASUVORK5CYII=");
+    mix-blend-mode: multiply;
+  }
+  
 
 /* Mobile Responsiveness */
 @media (max-width: 600px) {
